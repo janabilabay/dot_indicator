@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'pages/page_1.dart';
 import 'pages/page_2.dart';
 import 'pages/page_3.dart';
@@ -27,6 +28,19 @@ class HomePage extends StatelessWidget {
                   Page3(),
                   Page4(),
                 ],
+              ),
+            ),
+          ),
+          SizedBox(
+            height: 100,
+            child: SmoothPageIndicator(
+              controller: _controller,
+              count: 4,
+              effect: ExpandingDotsEffect(
+                activeDotColor: Colors.deepPurple,
+                dotColor: Colors.deepPurple.shade100,
+                dotHeight: 10,
+                dotWidth: 10,
               ),
             ),
           ),
