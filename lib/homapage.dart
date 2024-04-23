@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'pages/page_1.dart';
 import 'pages/page_2.dart';
