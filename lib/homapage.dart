@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.deepPurple[200],
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [

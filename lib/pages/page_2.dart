@@ -6,13 +6,16 @@ class Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blue[500],
-      body: Padding(
-        padding: const EdgeInsets.all(40.0),
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(10),
-          child: Container(
-            color: Colors.blue[500],
+      backgroundColor: Colors.transparent,
+      body: Center(
+        child: SizedBox(
+          width: 300,
+          height: 400,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: Container(
+              color: Colors.deepPurple[300],
+            ),
           ),
         ),
       ),
